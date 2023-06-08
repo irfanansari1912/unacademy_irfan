@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="78.19" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Landing" name="Validate User navigates onto Landing page" time="14.445">
+<system-out><![CDATA[
+Given Chrome is launched and unacademy application is launched..............passed
+Then user navigate on Landing page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing" name="Validate landing page UI" time="17.706">
+<system-out><![CDATA[
+Given Chrome is launched and unacademy application is launched..............passed
+Then user navigate on Landing page..........................................passed
+And Landing page feild are Visible..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing" name="field validation on Landing page(Goals Feild Text Box is Enable)" time="22.139">
+<system-out><![CDATA[
+Given Chrome is launched and unacademy application is launched..............passed
+Then user navigate on Landing page..........................................passed
+When User Enter the Goal in Goals Feild.....................................passed
+Then User is Should able to Enter the Goals.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing" name="field validation on Landing page(Goals Feild Text Box is Enable)" time="23.63">
+<system-out><![CDATA[
+Given Chrome is launched and unacademy application is launched..............passed
+Then user navigate on Landing page..........................................passed
+When user click the find a center...........................................passed
+Then user navigate the  find a center.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
